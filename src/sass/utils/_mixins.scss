@@ -1,0 +1,21 @@
+// Les media queries dans les mixins// MEDIA QUERIES
+@mixin tablet {
+    @media screen and (min-width: 426px) {
+      //  On peut ajouter des règles qui sont globales
+      //  par exemple nos tailles de police
+  
+      // J'ajoute `@content` pour indiquer que mes règles
+      // utilisées avec la mixin vinedront se superposer ici
+      @content;
+    }
+  }
+  
+  @mixin desktop {
+    @media screen and (min-width: 1024px) {
+      // J'ajoute `@content` pour indiquer que mes règles
+      // utilisées avec la mixin vinedront se superposer ici
+      @content;
+    }
+  }
+
+  

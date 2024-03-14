@@ -1,0 +1,15 @@
+$color-base: rgb(72, 175, 31);
+
+main {
+    background-color: #121212;
+    color: $color-base;
+};
+
+#containerInfos {
+    border: 1px solid black;
+    
+    &.left {
+        color: red;
+    }
+}
+
